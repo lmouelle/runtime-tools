@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/opencontainers/runtime-tools/validate"
+	"github.com/opencontainers/ocitools/validate"
 	"github.com/urfave/cli"
 )
 

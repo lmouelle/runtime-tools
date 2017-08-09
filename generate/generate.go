@@ -8,9 +8,9 @@ import (
 	"os"
 	"strings"
 
+	"github.com/opencontainers/ocitools/generate/seccomp"
+	"github.com/opencontainers/ocitools/validate"
 	rspec "github.com/opencontainers/runtime-spec/specs-go"
-	"github.com/opencontainers/runtime-tools/generate/seccomp"
-	"github.com/opencontainers/runtime-tools/validate"
 	"github.com/syndtr/gocapability/capability"
 )
 

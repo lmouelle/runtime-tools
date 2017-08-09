@@ -10,9 +10,9 @@ import (
 	"unicode"
 	"unicode/utf8"
 
+	"github.com/opencontainers/ocitools/generate"
+	"github.com/opencontainers/ocitools/generate/seccomp"
 	rspec "github.com/opencontainers/runtime-spec/specs-go"
-	"github.com/opencontainers/runtime-tools/generate"
-	"github.com/opencontainers/runtime-tools/generate/seccomp"
 	"github.com/urfave/cli"
 )
 

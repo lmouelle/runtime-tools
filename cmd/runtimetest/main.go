@@ -21,9 +21,9 @@ import (
 	"github.com/syndtr/gocapability/capability"
 	"github.com/urfave/cli"
 
-	"github.com/opencontainers/runtime-tools/cmd/runtimetest/mount"
-	rfc2119 "github.com/opencontainers/runtime-tools/error"
-	"github.com/opencontainers/runtime-tools/validate"
+	"github.com/opencontainers/ocitools/cmd/runtimetest/mount"
+	rfc2119 "github.com/opencontainers/ocitools/error"
+	"github.com/opencontainers/ocitools/validate"
 )
 
 // PrGetNoNewPrivs isn't exposed in Golang so we define it ourselves copying the value from

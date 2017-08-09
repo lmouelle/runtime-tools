@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	rfc2119 "github.com/opencontainers/runtime-tools/error"
+	rfc2119 "github.com/opencontainers/ocitools/error"
 )
 
 const referenceTemplate = "https://github.com/opencontainers/runtime-spec/blob/v%s/%s"
